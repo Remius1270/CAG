@@ -37,13 +37,13 @@ Tip 1: You can change the color of the sidebar using: data-color="blue | green |
                 </a>
             </li> -->
             <li>
-                <a href="{{url('/user')}}">
+                <a href="{{url('user')}}">
                     <i class="now-ui-icons users_single-02"></i>
                     <p>User Profile</p>
                 </a>
             </li>
             <li>
-                  <a href="{{url('/add')}}">
+                  <a href="{{url('add')}}">
                     <i class="now-ui-icons ui-1_simple-add"></i>
                     <p>Ajouter un Article</p>
                 </a>

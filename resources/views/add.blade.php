@@ -11,16 +11,16 @@
       </div>
       <div class="card-body">
         <div class="col-sm-12">
-          <form action="" method="post">
+          <form action="{{url('add')}}" method="post">
             {{ csrf_field() }}
             <div class="form-group login-form">
               <textarea class="form-control" placeholder="Article..." rows="5"></textarea>
+              <input type="submit" value="Submit">
             </div>
           </form>
         </div>
       </div>
       <div class="card-footer">
-          <a class="btn btn-primary btn-round" href="{{url('create')}}">Envoyer</a>
       </div>
     </div>
   </div>

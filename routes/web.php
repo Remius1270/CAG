@@ -19,4 +19,5 @@ Auth::routes();
 
 Route::get('/user', 'HomeController@index');
 
-Route::get('/add','UsersController@add');
+Route::get('/add','ArticlesController@add');
+Route::post('/add','ArticlesController@create');
